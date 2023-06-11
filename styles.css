@@ -24,3 +24,21 @@ body {
 .navbar a:hover {
   background-color: #ddd;
 }
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.spacer {
+  height: 2000px;  /* Adjust this to position the iframe lower or higher on the page */
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 600px;  /* Adjust this to change the size of the iframe */
+  border: none;
+}
