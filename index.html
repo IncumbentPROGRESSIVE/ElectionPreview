@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Test Website - Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Test Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <div class="navbar">
-    <a href="index.html">Home</a>
     <a href="second.html">About</a>
     <a href="third.html">Contact</a>
   </div>
 
-  <h1>Home Page</h1>
-
-  <div class="textbox">
-    <input type="text" value="Election Preview" readonly>
+  <div id="home" class="page active">
+    <h1>Home Page</h1>
+    <input class="textbox" type="text" value="test website" readonly>
   </div>
+
+  <div class="spacer"></div>
+
+  <div class="iframe-container">
+    <iframe src="https://steepatticstairs.github.io/ElectionMap/" title=""></iframe>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
-
