@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .textbox {
+      margin: 10px;
+    }
+    .navbar {
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" onclick="navigateTo('home')">Home</a>
+    <a href="#" onclick="navigateTo('about')">About</a>
+    <a href="#" onclick="navigateTo('contact')">Contact</a>
+  </div>
+
+  <div id="home" class="page active">
+    <h1>Home Page</h1>
+
+    <div class="textbox">
+      <input type="text" value="test website" readonly>
+    </div>
+  </div>
+
+  <div id="about" class="page">
+    <h1>About Page</h1>
+
+    <div class="textbox">
+      <input type="text" value="test website" readonly>
+    </div>
+  </div>
+
+  <div id="contact" class="page">
+    <h1>Contact Page</h1>
+
+    <div class="textbox">
+      <input type="text" value="test website" readonly>
+    </div>
+  </div>
+
+  <script>
+    function navigateTo(page) {
+      // Hide all pages
+      var pages = document.getElementsByClassName('page');
+      for (var i = 0; i < pages.length; i++) {
+        pages[i].classList.remove('active');
+      }
+
+      // Show the selected page
+      document.getElementById(page).classList.add('active');
+    }
+  </script>
+</body>
+</html>
