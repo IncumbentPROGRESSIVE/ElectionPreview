@@ -5,6 +5,7 @@ body {
 
 .textbox {
   margin: 10px;
+  width: 50%; /* Set the width for both input boxes */
 }
 
 .navbar {
@@ -34,5 +35,14 @@ iframe {
   width: 100%;
   height: 600px;  /* Adjust this to change the size of the iframe */
   border: none;
+}
+
+/* Specific styles for the input and output boxes */
+#userInput {
+  height: 20px; /* Adjust as needed */
+}
+
+#outputBox {
+  height: 50px; /* Adjust as needed */
 }
 
