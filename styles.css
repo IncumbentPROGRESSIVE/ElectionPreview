@@ -28,7 +28,7 @@ body {
 }
 
 .spacer {
-  height: 2px;  /* Adjust this to position the iframe lower or higher on the page */
+  height: 2px;  /* Adjust this to position the new iframe lower or higher on the page */
 }
 
 iframe {
