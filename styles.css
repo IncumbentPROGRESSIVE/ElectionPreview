@@ -10,6 +10,9 @@ body {
 .navbar {
   background-color: #f1f1f1;
   overflow: hidden;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick to the top of the screen */
+  z-index: 1; /* Stay on top of other elements */
 }
 
 .navbar a {
