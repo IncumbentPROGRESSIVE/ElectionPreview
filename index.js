@@ -9,7 +9,7 @@ let Moderate = true: //
   var outputBox = document.getElementById('outputBox');
 
   // Listen for when the input box's value changes
-  userInput.addEventListener('input', function() {
+  userInput.addEventListener('change', function() {
     // Store the user's input in a variable
     var userText = userInput.value;
 
