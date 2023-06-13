@@ -10,7 +10,7 @@ let Moderate = true: //
   var userTest = 5
 
   // Listen for when the input box's value changes
-  userInput.addEventListener('change', function() {
+  userInput.addEventListener('input', function() {
     // Store the user's input in a variable
     var userText = userInput.value;
 
