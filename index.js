@@ -3,8 +3,6 @@ let Republican = false; // Change the value to true or false as needed
 let Democrat = false; // Change the value to true or false as needed
 
 
-// Wait for the DOM to fully load before running the script
-document.addEventListener('DOMContentLoaded', function() {
   // Get the input and output elements
   var userInput = document.getElementById('userInput');
   var outputBox = document.getElementById('outputBox');
