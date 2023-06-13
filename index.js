@@ -7,6 +7,7 @@ let Moderate = true: //
   // Get the input and output elements
   var userInput = document.getElementById('userInput');
   var outputBox = document.getElementById('outputBox');
+  var userTest = 5
 
   // Listen for when the input box's value changes
   userInput.addEventListener('change', function() {
