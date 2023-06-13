@@ -1,6 +1,7 @@
 // Declare two boolean variables
 let Republican = false; // Change the value to true or false as needed
 let Democrat = false; // Change the value to true or false as needed
+let Moderate = true: //
 
 
   // Get the input and output elements
